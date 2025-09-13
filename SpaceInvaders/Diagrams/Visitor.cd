@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.DLink" Collapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAIAAgAAAAAAAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Manager\DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.ColPair">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SE456.ColPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\ColPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="treeA" Type="SE456.GameObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="5.875" />
+        <Point X="9.562" Y="5.875" />
+        <Point X="9.562" Y="5.191" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.742" Y="0.12" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="treeB" Type="SE456.GameObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="5.75" />
+        <Point X="9.156" Y="5.75" />
+        <Point X="9.156" Y="5.191" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBABAAgAAggQAAIAEQAAgCAAAAAAABAA=</HashCode>
+      <FileName>Collision\ColPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="treeA" />
+      <Field Name="treeB" />
+      <Field Name="poSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.ColSubject">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <AssociationLine Name="pObjA" Type="SE456.GameObject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.216" Y="-0.286" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pObjB" Type="SE456.GameObject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.185" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAEIAAAAAAAAAAIAAAABAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ColSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pObjA" />
+      <Field Name="pObjB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.GameObject" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQQAAAAEAAQQAAAAAAAhIEAAAAEIAAAAAJiAIEABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Component" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAYAAAgAAAABAAAAACBAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.ColVisitor" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="VisitBombRoot" Hidden="true" />
+      <Method Name="VisitBumperLeft" Hidden="true" />
+      <Method Name="VisitBumperRight" Hidden="true" />
+      <Method Name="VisitBumperRoot" Hidden="true" />
+      <Method Name="VisitColumn" Hidden="true" />
+      <Method Name="VisitCrab" Hidden="true" />
+      <Method Name="VisitGrid" Hidden="true" />
+      <Method Name="VisitMissile" Hidden="true" />
+      <Method Name="VisitMissileGroup" Hidden="true" />
+      <Method Name="VisitNullGameObject" Hidden="true" />
+      <Method Name="VisitOctopus" Hidden="true" />
+      <Method Name="VisitShieldBrick" Hidden="true" />
+      <Method Name="VisitShieldColumn" Hidden="true" />
+      <Method Name="VisitShieldGrid" Hidden="true" />
+      <Method Name="VisitShieldRoot" Hidden="true" />
+      <Method Name="VisitShip" Hidden="true" />
+      <Method Name="VisitShipRoot" Hidden="true" />
+      <Method Name="VisitSquid" Hidden="true" />
+      <Method Name="VisitWallBottom" Hidden="true" />
+      <Method Name="VisitWallGroup" Hidden="true" />
+      <Method Name="VisitWallLeft" Hidden="true" />
+      <Method Name="VisitWallRight" Hidden="true" />
+      <Method Name="VisitWallTop" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="SE456.DLink" ManuallyRouted="true">
+      <Path>
+        <Point X="6.75" Y="1.691" />
+        <Point X="6.75" Y="2.094" />
+        <Point X="8.5" Y="2.094" />
+        <Point X="8.5" Y="1.893" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gIQwACCACAQARAABDAChAAACDgAAAAAEAiEAAAAAACA=</HashCode>
+      <FileName>Collision\ColVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

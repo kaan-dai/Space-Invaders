@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.IteratorCompositeBase">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAECAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\IteratorCompositeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.IteratorForwardComposite">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="GetChild" Hidden="true" />
+      <Method Name="GetParent" Hidden="true" />
+      <Method Name="GetSibling" Hidden="true" />
+      <Method Name="IteratorForwardComposite" Hidden="true" />
+      <Method Name="privNextStep" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAFCAAAAAAAQAAAAIAAAAAAAAACAAAAAAAAAQCAAA=</HashCode>
+      <FileName>Composite\IteratorForwardComposite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.IteratorReverseComposite">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="IteratorReverseComposite" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAECAAAAAAAQAAABIAAAAAAIAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\IteratorReverseComposite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCurr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.Component" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAYAAAgAAAABAAAAACBAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.GameObject" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAEAAQQAAAAAAAhIEAAAAEIAAAAAJiAIEABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Composite">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAAAABAAAAACAQAAAEAAAQIAEAAA=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Leaf" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAAAABAAAAAAAQAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

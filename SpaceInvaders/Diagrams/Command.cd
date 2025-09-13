@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.TimerEventMan">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="DumpStats" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="TimerEventMan" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABYEAAAAAAAAAAAAAAABpAAAAABIAEAAAAACAAAAAUA=</HashCode>
+      <FileName>Timer\TimerEventMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poNodeCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.TimerEvent">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="getPriority" Hidden="true" />
+      <Field Name="priority" Hidden="true" />
+      <Method Name="setPriority" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SE456.TimerEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Timer\TimerEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAUABAAAAgAAgAAAAAAGQAAEAAAAAAAABAA=</HashCode>
+      <FileName>Timer\TimerEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.Command">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Cmd\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.GridMoveCommand">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <Members>
+      <Method Name="GridMoveCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Cmd\GridMoveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.SoundMoveCommand">
+    <Position X="11.25" Y="6.5" Width="1.5" />
+    <Members>
+      <Method Name="SoundMoveCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQABAAAAAAEABAAGAAAAACACACAAAA=</HashCode>
+      <FileName>Timer\Cmd\SoundMoveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.SpriteAnimationCommand">
+    <Position X="13.25" Y="6.5" Width="1.5" />
+    <Members>
+      <Method Name="Attach" Hidden="true" />
+      <Method Name="SpriteAnimationCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAAAAAAAgAAJAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Timer\Cmd\SpriteAnimationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

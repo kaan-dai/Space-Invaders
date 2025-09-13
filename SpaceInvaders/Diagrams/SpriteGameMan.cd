@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.ManBase">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="poActive" Type="SE456.ListBase">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.891" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="poReserve" Type="SE456.ListBase">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.745" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAIAEAAAAAAiCAgAAIgAAQCAIAgAEABAAAAAAIAA=</HashCode>
+      <FileName>Manager\ManBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.ListBase">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAs=</HashCode>
+      <FileName>Manager\ListBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.DLinkMan">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAIAAAAAAAABgAAAAAAAAACAAAAAAAAAAs=</HashCode>
+      <FileName>Manager\DLink\DLinkMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+      <Field Name="poIterator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.DLinkIterator" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAACAABQAAAAGAAAAACAABCAAAAAAAAAAAgAg=</HashCode>
+      <FileName>Manager\DLink\DLinkIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Iterator" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAACAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manager\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.DLink">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAIAAgAAAAAAAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Manager\DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.SpriteGame">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SE456.SpriteGame.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteGame\SpriteGame.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAIBAAAAAAJABAQAgAoAAAAAAAQAAAARhgAABABAA=</HashCode>
+      <FileName>Sprite\SpriteGame\SpriteGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.SpriteGameMan">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="derivedCreateNode" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAABpAAAAABIAEAAAAgAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteGame\SpriteGameMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="psSpriteCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.SpriteBase" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAQAAAAAAAAAAAgAAAAAAAAEAAAAAABAAAAAAQAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.SpriteGameProxy">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="privPushToReal" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SpriteGameProxy" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SE456.SpriteGameProxy.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteGameProxy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAABABAAAAAgAAAAAAEQAAAABBwAAAADAA=</HashCode>
+      <FileName>Sprite\SpriteGameProxy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pRealSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.SpriteBase">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="baseDump" Hidden="true" />
+      <Method Name="baseWash" Hidden="true" />
+      <Method Name="GetSpriteNode" Hidden="true" />
+      <Method Name="SetSpriteNode" Hidden="true" />
+      <Method Name="SpriteBase" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAQAAQAAAAAAAAAAAgAAAAAAAAEAAAAAABAAAAAAQAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.SpriteGame">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GetRect" Hidden="true" />
+      <Field Name="mName" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SpriteGame" Hidden="true" />
+      <Method Name="SwapColor" Hidden="true" />
+      <Method Name="SwapImage" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SE456.SpriteGame.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteGame\SpriteGame.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAIBAAAAAAJABAQAgAoAAAAAAAQAAAARhgAABABAA=</HashCode>
+      <FileName>Sprite\SpriteGame\SpriteGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poAzulSprite" />
+      <Field Name="poColor" />
+      <Field Name="poRect" />
+      <Field Name="pImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul.Sprite" Collapsed="true">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azul.Color" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azul.Rect" Collapsed="true">
+    <Position X="11.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SE456.Image" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBQAAAAAAoAEAAAAAQAAAAAgAAAAABAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

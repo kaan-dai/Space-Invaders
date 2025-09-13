@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.BombCategory" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\BombCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Bomb" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAABAAAAAAABAAABAAAAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\Bomb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pStrategy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.FallStrategy">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\FallStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.FallStraight">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="FallStraight" Hidden="true" />
+      <Field Name="oldPosY" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\FallStraight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.FallZigZag">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="FallZigZag" Hidden="true" />
+      <Field Name="oldPosY" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\FallZigZag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.FallDagger">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="FallDagger" Hidden="true" />
+      <Field Name="oldPosY" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\FallDagger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

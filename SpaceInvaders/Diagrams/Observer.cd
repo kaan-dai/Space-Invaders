@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.ColPair">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SE456.ColPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\ColPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBABAAgAAggQAAIAEQAAgCAAAAAAABAA=</HashCode>
+      <FileName>Collision\ColPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.ColSubject" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAEIAAAAAAAAAAIAAAABAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\ColSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.ColObserver">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SE456.ColObserver.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\ColObserver.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="pSubject" Type="SE456.ColSubject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.091" Y="-0.255" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQQABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\ColObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.GridObserver" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Observer\GridObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.RemoveAlienObserver" Collapsed="true">
+    <Position X="7" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAQAAAAAgAIAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Observer\RemoveAlienObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.RemoveMissileObserver" Collapsed="true">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAgAAAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Observer\RemoveMissileObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.SndObserver" Collapsed="true">
+    <Position X="7.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAACABAAAAAAAAABAA=</HashCode>
+      <FileName>Observer\SndObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
